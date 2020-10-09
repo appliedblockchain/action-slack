@@ -64,7 +64,7 @@ inputs:
     default: ${{ github.token }}
 runs:
   using: node12
-  main: lib/index.js
+  main: lib/main.js
 branding:
   icon: bell
   color: blue
